@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Created-By: Grigor Iliev
+JS-Views: classic
+JS-Default-View: classic
+
+Name: classic
+View-Name: JS Classic
+View-Config: org.jsampler.view.classic.ViewConfig
+Main-Frame: org.jsampler.view.classic.MainFrame
+Progress-Indicator: org.jsampler.view.classic.ProgressDlg
