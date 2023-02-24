@@ -43,15 +43,14 @@ import javax.swing.JSpinner;
 import javax.swing.JTextField;
 import javax.swing.SpinnerNumberModel;
 
-import net.sf.juife.swing.JuifeUtils;
 import net.sf.juife.swing.Wizard;
 
 import net.sf.juife.event.TaskEvent;
 import net.sf.juife.event.TaskListener;
 
-import net.sf.juife.wizard.DefaultWizardModel;
-import net.sf.juife.wizard.UserInputPage;
-import net.sf.juife.wizard.WizardPage;
+import net.sf.juife.swing.wizard.DefaultWizardModel;
+import net.sf.juife.swing.wizard.UserInputPage;
+import net.sf.juife.swing.wizard.WizardPage;
 
 import org.jsampler.AudioDeviceModel;
 import org.jsampler.CC;
