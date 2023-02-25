@@ -213,7 +213,7 @@ public class HelpAboutDlg extends InformationDialog {
 	private void
 	showJlscpInfo() {
 		String website = "http://sourceforge.net/projects/jlscp";
-		String ver = Package.getPackage("org.linuxsampler.lscp").getImplementationVersion();
+		String ver = Package.getPackage("com.grigoriliev.jsampler.jlscp").getImplementationVersion();
 		new LibraryInfoDlg(this, "jlscp", ver, website, License.GPL).setVisible(true);
 	}
 	

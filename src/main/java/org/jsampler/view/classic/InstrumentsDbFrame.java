@@ -61,8 +61,8 @@ import org.jsampler.view.swing.std.JSInstrumentsDbTree;
 import org.jsampler.view.swing.std.JSLostFilesDlg;
 import org.jsampler.view.swing.std.StdUtils;
 
-import org.linuxsampler.lscp.DbDirectoryInfo;
-import org.linuxsampler.lscp.DbInstrumentInfo;
+import com.grigoriliev.jsampler.jlscp.DbDirectoryInfo;
+import com.grigoriliev.jsampler.jlscp.DbInstrumentInfo;
 
 import static org.jsampler.view.classic.ClassicI18n.i18n;
 import static org.jsampler.view.classic.ClassicPrefs.preferences;

@@ -101,11 +101,11 @@ import org.jsampler.view.swing.std.JSChannelOutputRoutingDlg;
 import org.jsampler.view.swing.std.JSFxSendsPane;
 import org.jsampler.view.swing.std.JSInstrumentChooser;
 
-import org.linuxsampler.lscp.AudioOutputDevice;
-import org.linuxsampler.lscp.MidiInputDevice;
-import org.linuxsampler.lscp.MidiPort;
-import org.linuxsampler.lscp.SamplerChannel;
-import org.linuxsampler.lscp.SamplerEngine;
+import com.grigoriliev.jsampler.jlscp.AudioOutputDevice;
+import com.grigoriliev.jsampler.jlscp.MidiInputDevice;
+import com.grigoriliev.jsampler.jlscp.MidiPort;
+import com.grigoriliev.jsampler.jlscp.SamplerChannel;
+import com.grigoriliev.jsampler.jlscp.SamplerEngine;
 
 import static org.jsampler.view.classic.ClassicI18n.i18n;
 import static org.jsampler.view.classic.ClassicPrefs.preferences;

@@ -73,9 +73,9 @@ import org.jsampler.view.swing.NumberCellEditor;
 import org.jsampler.view.swing.ParameterTable;
 import org.jsampler.view.swing.SHF;
 
-import org.linuxsampler.lscp.AudioOutputChannel;
-import org.linuxsampler.lscp.AudioOutputDevice;
-import org.linuxsampler.lscp.Parameter;
+import com.grigoriliev.jsampler.jlscp.AudioOutputChannel;
+import com.grigoriliev.jsampler.jlscp.AudioOutputDevice;
+import com.grigoriliev.jsampler.jlscp.Parameter;
 
 import static org.jsampler.view.classic.ClassicI18n.i18n;
 import static org.jsampler.view.classic.AudioDevicesTableModel.*;
