@@ -5,6 +5,6 @@ JS-Default-View: classic
 
 Name: classic
 View-Name: JS Classic
-View-Config: org.jsampler.view.classic.ViewConfig
-Main-Frame: org.jsampler.view.classic.MainFrame
-Progress-Indicator: org.jsampler.view.classic.ProgressDlg
+View-Config: com.grigoriliev.jsampler.classic.view.ViewConfig
+Main-Frame: com.grigoriliev.jsampler.classic.view.MainFrame
+Progress-Indicator: com.grigoriliev.jsampler.classic.view.ProgressDlg
