@@ -44,8 +44,8 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextField;
 
-import net.sf.juife.swing.InformationDialog;
-import net.sf.juife.swing.LinkButton;
+import com.grigoriliev.jsampler.juife.swing.InformationDialog;
+import com.grigoriliev.jsampler.juife.swing.LinkButton;
 
 import org.jsampler.view.swing.SHF;
 
@@ -220,7 +220,7 @@ public class HelpAboutDlg extends InformationDialog {
 	private void
 	showJuifeInfo() {
 		String website = "http://sourceforge.net/projects/juife";
-		String ver = Package.getPackage("net.sf.juife").getImplementationVersion();
+		String ver = Package.getPackage("com.grigoriliev.jsampler.juife").getImplementationVersion();
 		new LibraryInfoDlg(this, "juife", ver, website, License.LGPL).setVisible(true);
 	}
 	

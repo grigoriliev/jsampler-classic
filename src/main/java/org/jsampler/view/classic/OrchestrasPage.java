@@ -39,8 +39,8 @@ import javax.swing.JScrollPane;
 import javax.swing.JSeparator;
 import javax.swing.TransferHandler;
 
-import net.sf.juife.swing.LinkButton;
-import net.sf.juife.swing.NavigationPage;
+import com.grigoriliev.jsampler.juife.swing.LinkButton;
+import com.grigoriliev.jsampler.juife.swing.NavigationPage;
 
 import org.jsampler.CC;
 import org.jsampler.DefaultOrchestraModel;

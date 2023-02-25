@@ -71,8 +71,8 @@ import javax.swing.border.TitledBorder;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import net.sf.juife.swing.InformationDialog;
-import net.sf.juife.swing.JuifeUtils;
+import com.grigoriliev.jsampler.juife.swing.InformationDialog;
+import com.grigoriliev.jsampler.juife.swing.JuifeUtils;
 
 import org.jsampler.AudioDeviceModel;
 import org.jsampler.CC;

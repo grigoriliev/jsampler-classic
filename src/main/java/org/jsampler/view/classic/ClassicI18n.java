@@ -25,7 +25,7 @@ package org.jsampler.view.classic;
  * This class manages the locale-specific data of JS Classic.
  * @author Grigor Iliev
  */
-public class ClassicI18n extends net.sf.juife.I18n {
+public class ClassicI18n extends com.grigoriliev.jsampler.juife.I18n {
 	/** Provides the locale-specific data of JS Classic. */
 	public static ClassicI18n i18n = new ClassicI18n();
 	

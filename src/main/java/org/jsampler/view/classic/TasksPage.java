@@ -33,8 +33,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JSeparator;
 
-import net.sf.juife.swing.LinkButton;
-import net.sf.juife.swing.NavigationPage;
+import com.grigoriliev.jsampler.juife.swing.LinkButton;
+import com.grigoriliev.jsampler.juife.swing.NavigationPage;
 
 import static org.jsampler.view.classic.ClassicI18n.i18n;
 import static org.jsampler.view.classic.LeftPane.getLeftPane;

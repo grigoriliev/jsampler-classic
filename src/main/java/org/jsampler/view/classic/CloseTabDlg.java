@@ -38,7 +38,7 @@ import javax.swing.JRadioButton;
 import org.jsampler.CC;
 import org.jsampler.view.JSChannelsPane;
 
-import net.sf.juife.swing.OkCancelDialog;
+import com.grigoriliev.jsampler.juife.swing.OkCancelDialog;
 
 import static org.jsampler.view.classic.ClassicI18n.i18n;
 

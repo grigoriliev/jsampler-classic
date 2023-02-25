@@ -21,8 +21,8 @@
 
 package org.jsampler.view.classic;
 
-import net.sf.juife.swing.NavigationPage;
-import net.sf.juife.swing.NavigationPane;
+import com.grigoriliev.jsampler.juife.swing.NavigationPage;
+import com.grigoriliev.jsampler.juife.swing.NavigationPane;
 
 
 /**

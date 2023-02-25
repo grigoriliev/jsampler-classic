@@ -54,9 +54,9 @@ import javax.swing.event.ListSelectionListener;
 import javax.swing.table.AbstractTableModel;
 import javax.swing.table.TableColumn;
 
-import net.sf.juife.swing.InformationDialog;
-import net.sf.juife.swing.JuifeUtils;
-import net.sf.juife.swing.NavigationPage;
+import com.grigoriliev.jsampler.juife.swing.InformationDialog;
+import com.grigoriliev.jsampler.juife.swing.JuifeUtils;
+import com.grigoriliev.jsampler.juife.swing.NavigationPage;
 
 import org.jsampler.AudioDeviceModel;
 import org.jsampler.CC;

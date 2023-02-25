@@ -40,9 +40,9 @@ import javax.swing.ListSelectionModel;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
-import net.sf.juife.swing.ComponentList;
-import net.sf.juife.swing.ComponentListModel;
-import net.sf.juife.swing.DefaultComponentListModel;
+import com.grigoriliev.jsampler.juife.swing.ComponentList;
+import com.grigoriliev.jsampler.juife.swing.ComponentListModel;
+import com.grigoriliev.jsampler.juife.swing.DefaultComponentListModel;
 
 import org.jsampler.CC;
 import org.jsampler.SamplerChannelModel;

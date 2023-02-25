@@ -45,8 +45,8 @@ import org.jsampler.view.JSChannelsPane;
 import org.jsampler.view.JSMainFrame;
 import org.jsampler.view.swing.SHF;
 
-import net.sf.juife.swing.EnhancedDialog;
-import net.sf.juife.swing.JuifeUtils;
+import com.grigoriliev.jsampler.juife.swing.EnhancedDialog;
+import com.grigoriliev.jsampler.juife.swing.JuifeUtils;
 
 import static org.jsampler.view.classic.ClassicI18n.i18n;
 

@@ -21,8 +21,8 @@
 
 package org.jsampler.view.classic;
 
-import net.sf.juife.event.GenericEvent;
-import net.sf.juife.event.GenericListener;
+import com.grigoriliev.jsampler.juife.event.GenericEvent;
+import com.grigoriliev.jsampler.juife.event.GenericListener;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dialog;
@@ -55,7 +55,7 @@ import javax.swing.KeyStroke;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import net.sf.juife.swing.NavigationPage;
+import com.grigoriliev.jsampler.juife.swing.NavigationPage;
 
 import org.jsampler.CC;
 import org.jsampler.JSUtils;

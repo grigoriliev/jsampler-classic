@@ -41,8 +41,8 @@ import javax.swing.TransferHandler;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
-import net.sf.juife.swing.LinkButton;
-import net.sf.juife.swing.NavigationPage;
+import com.grigoriliev.jsampler.juife.swing.LinkButton;
+import com.grigoriliev.jsampler.juife.swing.NavigationPage;
 
 import org.jsampler.view.swing.InstrumentTable;
 import org.jsampler.view.swing.OrchestraTable;

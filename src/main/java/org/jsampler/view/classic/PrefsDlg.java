@@ -49,8 +49,8 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTabbedPane;
 
-import net.sf.juife.swing.EnhancedDialog;
-import net.sf.juife.swing.JuifeUtils;
+import com.grigoriliev.jsampler.juife.swing.EnhancedDialog;
+import com.grigoriliev.jsampler.juife.swing.JuifeUtils;
 
 import org.jsampler.CC;
 import org.jsampler.JSI18n;
