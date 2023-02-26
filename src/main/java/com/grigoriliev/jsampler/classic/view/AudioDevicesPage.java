@@ -306,11 +306,9 @@ public class AudioDevicesPage extends NavigationPage {
 			putValue(SHORT_DESCRIPTION, i18n.getMenuLabel("ttDuplicateAudioDevice"));
 			
 			try {
-				URL url = ClassLoader.getSystemClassLoader().getResource (
-					"com/grigoriliev/jsampler/classic/view/res/icons/Copy16.gif"
+				final ImageIcon icon = new ImageIcon(
+					Res.getUrl("com/grigoriliev/jsampler/classic/view/res/icons/Copy16.gif")
 				);
-				
-				ImageIcon icon = new ImageIcon(url);
 				if(icon.getImageLoadStatus() == MediaTracker.COMPLETE)
 					putValue(Action.SMALL_ICON, icon);
 			} catch(Exception x) {
@@ -345,11 +343,9 @@ public class AudioDevicesPage extends NavigationPage {
 			putValue(SHORT_DESCRIPTION, i18n.getMenuLabel("ttRemoveAudioDevice"));
 			
 			try {
-				URL url = ClassLoader.getSystemClassLoader().getResource (
-					"com/grigoriliev/jsampler/classic/view/res/icons/Delete16.gif"
+				final ImageIcon icon = new ImageIcon(
+					Res.getUrl("com/grigoriliev/jsampler/classic/view/res/icons/Delete16.gif")
 				);
-				
-				ImageIcon icon = new ImageIcon(url);
 				if(icon.getImageLoadStatus() == MediaTracker.COMPLETE)
 					putValue(Action.SMALL_ICON, icon);
 			} catch(Exception x) {
@@ -378,11 +374,9 @@ public class AudioDevicesPage extends NavigationPage {
 			putValue(SHORT_DESCRIPTION, i18n.getMenuLabel("ttAudioDeviceProps"));
 			
 			try {
-				URL url = ClassLoader.getSystemClassLoader().getResource (
-					"com/grigoriliev/jsampler/classic/view/res/icons/Properties16.gif"
+				final ImageIcon icon = new ImageIcon(
+					Res.getUrl("com/grigoriliev/jsampler/classic/view/res/icons/Properties16.gif")
 				);
-				
-				ImageIcon icon = new ImageIcon(url);
 				if(icon.getImageLoadStatus() == MediaTracker.COMPLETE)
 					putValue(Action.SMALL_ICON, icon);
 			} catch(Exception x) {

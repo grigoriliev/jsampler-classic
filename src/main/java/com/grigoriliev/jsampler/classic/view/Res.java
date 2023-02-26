@@ -21,6 +21,8 @@
 
 package com.grigoriliev.jsampler.classic.view;
 
+import java.net.URL;
+
 import javax.swing.ImageIcon;
 
 
@@ -182,5 +184,12 @@ public class Res {
 	
 	protected final static ImageIcon iconLinuxSamplerLogo
 		= new ImageIcon(Res.class.getResource("res/LinuxSampler-logo.png"));
-	
+
+	public static URL getUrl(String path) {
+		URL url = ClassLoader.getSystemClassLoader().getResource(path);
+		if (url == null) {
+			url = Res.class.getResource("/" + path);
+		}
+		return url;
+	}
 }

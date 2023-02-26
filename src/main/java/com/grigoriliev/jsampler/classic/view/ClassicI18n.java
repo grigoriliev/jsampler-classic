@@ -21,6 +21,9 @@
 
 package com.grigoriliev.jsampler.classic.view;
 
+import java.util.Locale;
+import java.util.ResourceBundle;
+
 /**
  * This class manages the locale-specific data of JS Classic.
  * @author Grigor Iliev
@@ -36,5 +39,10 @@ public class ClassicI18n extends com.grigoriliev.jsampler.juife.I18n {
 		setLabelsBundle("com.grigoriliev.jsampler.classic.view.langprops.LabelsBundle");
 		setMenusBundle("com.grigoriliev.jsampler.classic.view.langprops.MenuLabelsBundle");
 		setMessagesBundle("com.grigoriliev.jsampler.classic.view.langprops.MessagesBundle");
+	}
+
+	@Override
+	protected ResourceBundle getBundle(String baseName, Locale locale) {
+		return ResourceBundle.getBundle(baseName, locale, ClassicI18n.class.getModule());
 	}
 }

@@ -151,23 +151,18 @@ public class Channel extends com.grigoriliev.jsampler.swing.view.SwingChannel {
 		iconEdit = new ImageIcon(Channel.class.getResource("res/icons/edit.png"));
 		
 		String path = "com/grigoriliev/jsampler/classic/view/res/icons/";
-		URL url = ClassLoader.getSystemClassLoader().getResource(path + "mute_on.png");
-		iconMuteOn = new ImageIcon(url);
+
+		iconMuteOn = new ImageIcon(Res.getUrl(path + "mute_on.png"));
 		
-		url = ClassLoader.getSystemClassLoader().getResource(path + "mute_off.png");
-		iconMuteOff = new ImageIcon(url);
+		iconMuteOff = new ImageIcon(Res.getUrl(path + "mute_off.png"));
 		
-		url = ClassLoader.getSystemClassLoader().getResource(path + "muted_by_solo.png");
-		iconMutedBySolo = new ImageIcon(url);
+		iconMutedBySolo = new ImageIcon(Res.getUrl(path + "muted_by_solo.png"));
 		
-		url = ClassLoader.getSystemClassLoader().getResource(path + "solo_on.png");
-		iconSoloOn = new ImageIcon(url);
+		iconSoloOn = new ImageIcon(Res.getUrl(path + "solo_on.png"));
 		
-		url = ClassLoader.getSystemClassLoader().getResource(path + "solo_off.png");
-		iconSoloOff = new ImageIcon(url);
+		iconSoloOff = new ImageIcon(Res.getUrl(path + "solo_off.png"));
 		
-		url = ClassLoader.getSystemClassLoader().getResource(path + "Back16.gif");
-		iconShowProperties = new ImageIcon(url);
+		iconShowProperties = new ImageIcon(Res.getUrl(path + "Back16.gif"));
 		
 		iconHideProperties = Res.iconDown16;
 		
